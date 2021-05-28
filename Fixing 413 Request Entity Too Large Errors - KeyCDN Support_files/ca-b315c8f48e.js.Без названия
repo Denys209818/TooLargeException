@@ -1,0 +1,1 @@
+const ad=document.getElementById("ca"),adMobi=document.getElementById("ca-mobi");function initCarbonAds(){if(sidebarRight){const n=window.innerWidth;n>=992&&""===ad.innerHTML&&(ad.innerHTML=adMobi.innerHTML,adMobi.innerHTML=""),n<992&&""===adMobi.innerHTML&&(adMobi.innerHTML=ad.innerHTML,ad.innerHTML="")}}initCarbonAds(),window.addEventListener("resize",initCarbonAds,!1);
